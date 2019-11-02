@@ -1,7 +1,7 @@
 name: chroma
 description: Chroma
-version: 1.0.0+2
-author: Ian Jasper Pangan Santos <ianjaspersantos@gmail.com>
+version: 1.0.0+3
+author: Ian Jasper Santos <ianjaspersantos@gmail.com>
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
@@ -10,9 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.2
-
   shared_preferences: ^0.5.4+1
+  url_launcher: ^5.2.5
 
   provider: ^3.1.0+1
 

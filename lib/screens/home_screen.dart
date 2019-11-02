@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
               body: SafeArea(
                 child: Stack(
                   children: <Widget>[
-                    Particles(24, Colors.white.withOpacity(0.1)),
+                    Particles(32, Colors.white.withOpacity(0.1)),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
@@ -139,6 +139,61 @@ class HomeScreen extends StatelessWidget {
                                 ),
                               ],
                             ),
+                          ),
+                          SizedBox(
+                            height: 8.0,
+                          ),
+                          Row(
+                            children: <Widget>[
+                              Expanded(
+                                child: AnimatedContainer(
+                                  duration: Duration(
+                                    milliseconds: 400,
+                                  ),
+                                  padding: EdgeInsets.all(2.0),
+                                  decoration: BoxDecoration(
+                                    color: homeStore.life >= 1 ? Colors.white : Colors.transparent,
+                                    border: Border.all(
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                width: 8.0,
+                              ),
+                              Expanded(
+                                child: AnimatedContainer(
+                                  duration: Duration(
+                                    milliseconds: 400,
+                                  ),
+                                  padding: EdgeInsets.all(2.0),
+                                  decoration: BoxDecoration(
+                                    color: homeStore.life >= 2 ? Colors.white : Colors.transparent,
+                                    border: Border.all(
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                width: 8.0,
+                              ),
+                              Expanded(
+                                child: AnimatedContainer(
+                                  duration: Duration(
+                                    milliseconds: 400,
+                                  ),
+                                  padding: EdgeInsets.all(2.0),
+                                  decoration: BoxDecoration(
+                                    color: homeStore.life >= 3 ? Colors.white : Colors.transparent,
+                                    border: Border.all(
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                           SizedBox(
                             height: 8.0,
