@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:chroma/screens/welcome_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -11,7 +12,11 @@ SharedPreferences preferences;
 void main() async {
   preferences = await SharedPreferences.getInstance();
 
-  runApp(App());
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).then((value) {
+    runApp(App());
+  }).catchError((error) {
+    print(error);
+  });
 }
 
 class App extends StatelessWidget {

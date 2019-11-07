@@ -354,464 +354,480 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                                   ),
                                 ],
                               ),
-                              Spacer(),
-                              Column(
-                                children: <Widget>[
-                                  FittedBox(
-                                    child: Text(
-                                      'COMBINATION #1',
-                                      style: TextStyle(
-                                        fontSize: 32.0,
-                                        fontWeight: FontWeight.bold,
-                                        letterSpacing: 4.0,
-                                      ),
+//                              Spacer(),
+                              SizedBox(
+                                height: 16.0,
+                              ),
+                              Expanded(
+                                child: Center(
+                                  child: SingleChildScrollView(
+                                    child: Column(
+                                      children: <Widget>[
+                                        Column(
+                                          children: <Widget>[
+                                            FittedBox(
+                                              child: Text(
+                                                'COMBINATION #1',
+                                                style: TextStyle(
+                                                  fontSize: 32.0,
+                                                  fontWeight: FontWeight.bold,
+                                                  letterSpacing: 4.0,
+                                                ),
+                                              ),
+                                            ),
+                                            SizedBox(
+                                              height: 8.0,
+                                            ),
+                                            Row(
+                                              children: <Widget>[
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(0, 0, 0, 1.0),
+                                                                Color.fromRGBO(0, 0, 0, 0.8),
+                                                                Color.fromRGBO(0, 0, 0, 0.6),
+                                                                Color.fromRGBO(0, 0, 0, 0.4),
+                                                                Color.fromRGBO(0, 0, 0, 0.2),
+                                                                Color.fromRGBO(0, 0, 0, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(0, 0, 0)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                                SizedBox(
+                                                  width: 8.0,
+                                                ),
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(128, 128, 128, 1.0),
+                                                                Color.fromRGBO(128, 128, 128, 0.8),
+                                                                Color.fromRGBO(128, 128, 128, 0.6),
+                                                                Color.fromRGBO(128, 128, 128, 0.4),
+                                                                Color.fromRGBO(128, 128, 128, 0.2),
+                                                                Color.fromRGBO(128, 128, 128, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(128, 128, 128)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                                SizedBox(
+                                                  width: 8.0,
+                                                ),
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(255, 255, 255, 1.0),
+                                                                Color.fromRGBO(255, 255, 255, 0.8),
+                                                                Color.fromRGBO(255, 255, 255, 0.6),
+                                                                Color.fromRGBO(255, 255, 255, 0.4),
+                                                                Color.fromRGBO(255, 255, 255, 0.2),
+                                                                Color.fromRGBO(255, 255, 255, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(255, 255, 255)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                        SizedBox(
+                                          height: 40.0,
+                                        ),
+                                        Column(
+                                          children: <Widget>[
+                                            FittedBox(
+                                              child: Text(
+                                                'COMBINATION #2',
+                                                style: TextStyle(
+                                                  fontSize: 32.0,
+                                                  fontWeight: FontWeight.bold,
+                                                  letterSpacing: 4.0,
+                                                ),
+                                              ),
+                                            ),
+                                            SizedBox(
+                                              height: 8.0,
+                                            ),
+                                            Row(
+                                              children: <Widget>[
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(255, 0, 0, 1.0),
+                                                                Color.fromRGBO(255, 0, 0, 0.8),
+                                                                Color.fromRGBO(255, 0, 0, 0.6),
+                                                                Color.fromRGBO(255, 0, 0, 0.4),
+                                                                Color.fromRGBO(255, 0, 0, 0.2),
+                                                                Color.fromRGBO(255, 0, 0, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(255, 0, 0)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                                SizedBox(
+                                                  width: 8.0,
+                                                ),
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(0, 255, 0, 1.0),
+                                                                Color.fromRGBO(0, 255, 0, 0.8),
+                                                                Color.fromRGBO(0, 255, 0, 0.6),
+                                                                Color.fromRGBO(0, 255, 0, 0.4),
+                                                                Color.fromRGBO(0, 255, 0, 0.2),
+                                                                Color.fromRGBO(0, 255, 0, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(0, 255, 0)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                                SizedBox(
+                                                  width: 8.0,
+                                                ),
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(0, 0, 255, 1.0),
+                                                                Color.fromRGBO(0, 0, 255, 0.8),
+                                                                Color.fromRGBO(0, 0, 255, 0.6),
+                                                                Color.fromRGBO(0, 0, 255, 0.4),
+                                                                Color.fromRGBO(0, 0, 255, 0.2),
+                                                                Color.fromRGBO(0, 0, 255, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(0, 0, 255)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                        SizedBox(
+                                          height: 40.0,
+                                        ),
+                                        Column(
+                                          children: <Widget>[
+                                            FittedBox(
+                                              child: Text(
+                                                'COMBINATION #3',
+                                                style: TextStyle(
+                                                  fontSize: 32.0,
+                                                  fontWeight: FontWeight.bold,
+                                                  letterSpacing: 4.0,
+                                                ),
+                                              ),
+                                            ),
+                                            SizedBox(
+                                              height: 8.0,
+                                            ),
+                                            Row(
+                                              children: <Widget>[
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(255, 255, 0, 1.0),
+                                                                Color.fromRGBO(255, 255, 0, 0.8),
+                                                                Color.fromRGBO(255, 255, 0, 0.6),
+                                                                Color.fromRGBO(255, 255, 0, 0.4),
+                                                                Color.fromRGBO(255, 255, 0, 0.2),
+                                                                Color.fromRGBO(255, 255, 0, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(255, 255, 0)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                                SizedBox(
+                                                  width: 8.0,
+                                                ),
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(255, 0, 255, 1.0),
+                                                                Color.fromRGBO(255, 0, 255, 0.8),
+                                                                Color.fromRGBO(255, 0, 255, 0.6),
+                                                                Color.fromRGBO(255, 0, 255, 0.4),
+                                                                Color.fromRGBO(255, 0, 255, 0.2),
+                                                                Color.fromRGBO(255, 0, 255, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(255, 0, 255)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                                SizedBox(
+                                                  width: 8.0,
+                                                ),
+                                                Expanded(
+                                                  child: Column(
+                                                    children: <Widget>[
+                                                      AspectRatio(
+                                                        aspectRatio: 1.0 / 1.0,
+                                                        child: Container(
+                                                          decoration: BoxDecoration(
+                                                            border: Border.all(
+                                                              color: Colors.white,
+                                                            ),
+                                                            gradient: LinearGradient(
+                                                              begin: Alignment.topCenter,
+                                                              end: Alignment.bottomCenter,
+                                                              colors: <Color>[
+                                                                Color.fromRGBO(0, 255, 255, 1.0),
+                                                                Color.fromRGBO(0, 255, 255, 0.8),
+                                                                Color.fromRGBO(0, 255, 255, 0.6),
+                                                                Color.fromRGBO(0, 255, 255, 0.4),
+                                                                Color.fromRGBO(0, 255, 255, 0.2),
+                                                                Color.fromRGBO(0, 255, 255, 0.0),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                      ),
+                                                      SizedBox(
+                                                        height: 8.0,
+                                                      ),
+                                                      FittedBox(
+                                                        child: Text(
+                                                          'RGB(0, 255, 255)',
+                                                          style: TextStyle(
+                                                            fontSize: 12.0,
+                                                            fontWeight: FontWeight.w400,
+                                                            letterSpacing: 2.0,
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ],
                                     ),
                                   ),
-                                  SizedBox(
-                                    height: 8.0,
-                                  ),
-                                  Row(
-                                    children: <Widget>[
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(0, 0, 0, 1.0),
-                                                      Color.fromRGBO(0, 0, 0, 0.8),
-                                                      Color.fromRGBO(0, 0, 0, 0.6),
-                                                      Color.fromRGBO(0, 0, 0, 0.4),
-                                                      Color.fromRGBO(0, 0, 0, 0.2),
-                                                      Color.fromRGBO(0, 0, 0, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(0, 0, 0)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        width: 8.0,
-                                      ),
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(128, 128, 128, 1.0),
-                                                      Color.fromRGBO(128, 128, 128, 0.8),
-                                                      Color.fromRGBO(128, 128, 128, 0.6),
-                                                      Color.fromRGBO(128, 128, 128, 0.4),
-                                                      Color.fromRGBO(128, 128, 128, 0.2),
-                                                      Color.fromRGBO(128, 128, 128, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(128, 128, 128)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        width: 8.0,
-                                      ),
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(255, 255, 255, 1.0),
-                                                      Color.fromRGBO(255, 255, 255, 0.8),
-                                                      Color.fromRGBO(255, 255, 255, 0.6),
-                                                      Color.fromRGBO(255, 255, 255, 0.4),
-                                                      Color.fromRGBO(255, 255, 255, 0.2),
-                                                      Color.fromRGBO(255, 255, 255, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(255, 255, 255)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
+                                ),
                               ),
                               SizedBox(
-                                height: 40.0,
+                                height: 16.0,
                               ),
-                              Column(
-                                children: <Widget>[
-                                  FittedBox(
-                                    child: Text(
-                                      'COMBINATION #2',
-                                      style: TextStyle(
-                                        fontSize: 32.0,
-                                        fontWeight: FontWeight.bold,
-                                        letterSpacing: 4.0,
-                                      ),
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    height: 8.0,
-                                  ),
-                                  Row(
-                                    children: <Widget>[
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(255, 0, 0, 1.0),
-                                                      Color.fromRGBO(255, 0, 0, 0.8),
-                                                      Color.fromRGBO(255, 0, 0, 0.6),
-                                                      Color.fromRGBO(255, 0, 0, 0.4),
-                                                      Color.fromRGBO(255, 0, 0, 0.2),
-                                                      Color.fromRGBO(255, 0, 0, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(255, 0, 0)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        width: 8.0,
-                                      ),
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(0, 255, 0, 1.0),
-                                                      Color.fromRGBO(0, 255, 0, 0.8),
-                                                      Color.fromRGBO(0, 255, 0, 0.6),
-                                                      Color.fromRGBO(0, 255, 0, 0.4),
-                                                      Color.fromRGBO(0, 255, 0, 0.2),
-                                                      Color.fromRGBO(0, 255, 0, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(0, 255, 0)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        width: 8.0,
-                                      ),
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(0, 0, 255, 1.0),
-                                                      Color.fromRGBO(0, 0, 255, 0.8),
-                                                      Color.fromRGBO(0, 0, 255, 0.6),
-                                                      Color.fromRGBO(0, 0, 255, 0.4),
-                                                      Color.fromRGBO(0, 0, 255, 0.2),
-                                                      Color.fromRGBO(0, 0, 255, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(0, 0, 255)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                              SizedBox(
-                                height: 40.0,
-                              ),
-                              Column(
-                                children: <Widget>[
-                                  FittedBox(
-                                    child: Text(
-                                      'COMBINATION #3',
-                                      style: TextStyle(
-                                        fontSize: 32.0,
-                                        fontWeight: FontWeight.bold,
-                                        letterSpacing: 4.0,
-                                      ),
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    height: 8.0,
-                                  ),
-                                  Row(
-                                    children: <Widget>[
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(255, 255, 0, 1.0),
-                                                      Color.fromRGBO(255, 255, 0, 0.8),
-                                                      Color.fromRGBO(255, 255, 0, 0.6),
-                                                      Color.fromRGBO(255, 255, 0, 0.4),
-                                                      Color.fromRGBO(255, 255, 0, 0.2),
-                                                      Color.fromRGBO(255, 255, 0, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(255, 255, 0)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        width: 8.0,
-                                      ),
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(255, 0, 255, 1.0),
-                                                      Color.fromRGBO(255, 0, 255, 0.8),
-                                                      Color.fromRGBO(255, 0, 255, 0.6),
-                                                      Color.fromRGBO(255, 0, 255, 0.4),
-                                                      Color.fromRGBO(255, 0, 255, 0.2),
-                                                      Color.fromRGBO(255, 0, 255, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(255, 0, 255)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      SizedBox(
-                                        width: 8.0,
-                                      ),
-                                      Expanded(
-                                        child: Column(
-                                          children: <Widget>[
-                                            AspectRatio(
-                                              aspectRatio: 1.0 / 1.0,
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  border: Border.all(
-                                                    color: Colors.white,
-                                                  ),
-                                                  gradient: LinearGradient(
-                                                    begin: Alignment.topCenter,
-                                                    end: Alignment.bottomCenter,
-                                                    colors: <Color>[
-                                                      Color.fromRGBO(0, 255, 255, 1.0),
-                                                      Color.fromRGBO(0, 255, 255, 0.8),
-                                                      Color.fromRGBO(0, 255, 255, 0.6),
-                                                      Color.fromRGBO(0, 255, 255, 0.4),
-                                                      Color.fromRGBO(0, 255, 255, 0.2),
-                                                      Color.fromRGBO(0, 255, 255, 0.0),
-                                                    ],
-                                                  ),
-                                                ),
-                                              ),
-                                            ),
-                                            SizedBox(
-                                              height: 8.0,
-                                            ),
-                                            FittedBox(
-                                              child: Text(
-                                                'RGB(0, 255, 255)',
-                                                style: TextStyle(
-                                                  fontSize: 12.0,
-                                                  fontWeight: FontWeight.w400,
-                                                  letterSpacing: 2.0,
-                                                ),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                              Spacer(),
+//                              Spacer(),
                               Text(
                                 '© ${DateTime.now().year} Brainnovative Technology',
                                 style: Theme.of(context).textTheme.caption,
